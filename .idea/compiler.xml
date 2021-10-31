@@ -9,5 +9,8 @@
         <module name="SeleniumProject1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SeleniumProject1" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
