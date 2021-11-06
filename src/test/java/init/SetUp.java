@@ -14,7 +14,7 @@ public class SetUp {
     public WebDriver driver;
     @Before
     public void before(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\PIIT_NYA\\IdeaProjects\\SeleniumProject\\src\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\tasnu\\IdeaProjects\\SeleniumProject\\src\\drivers\\chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -22,8 +22,8 @@ public class SetUp {
         driver.manage().window().maximize();
     }
 
-    @After
-    public void after(){
-        driver.quit();
-    }
+    //@After
+    //public void after(){
+        //driver.quit();
+    //}
 }
